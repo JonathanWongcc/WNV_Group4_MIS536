@@ -1,7 +1,7 @@
 # WNV_Group4_MIS536
 ## Project Description
 
-The Chicago Department of Public Health maintains an environmental surveillance program for West Nile Virus (WNV). This program includes the collection of mosquitoes from traps located throughout the city; the identification and sorting of mosquitoes collected from these traps; and the testing of specific species of mosquitoes for WNV. List of locations and test results for pools of mosquitoes tested through the Chicago Department of Public Health Environmental Health program. We, Team 4 attemptinf to find out the correlation between the data variables and predict the results through various models.  
+The Chicago Department of Public Health maintains an environmental surveillance program for West Nile Virus (WNV). This program includes the collection of mosquitoes from traps located throughout the city; the identification and sorting of mosquitoes collected from these traps; and the testing of specific species of mosquitoes for WNV. List of locations and test results for pools of mosquitoes tested through the Chicago Department of Public Health Environmental Health program. We, Team 4, are attempting to find out the correlation between the data variables and predict the results through various models.  
 
 ## Data
 This project contains the raw data downloaded from Chicago Department of Public Health [website](https://data.cityofchicago.org/Health-Human-Services/West-Nile-Virus-WNV-Mosquito-Test-Results/jqe8-8r6s/data) as well as processed data attached under the data folder.
@@ -11,19 +11,12 @@ Result - The outcome converted to build and interpreate the gain chart.
 
 #### Column Drop 
 Below columns dropped due to insignificance or redundancy of the information.
-- Test ID
-- Block(Address)
-- Test Date
-- Trap
-- Result
-- Species
-- Latitude
-- Location
-- Position
-- Words
-- Historical Words
-- Community Area
-- Zipcode
+- TEST.ID - unique each row
+- BLOCK - specific address
+- Test.Date - test once a week
+- TRAP - trap ID
+- Location - combined Longitude and Latitude
+
 
 ## Models
 The exploration and prediction models are explained under the model section includes Oversampling, GLM, Decision tree, Lift chart and Confusion matrix.
