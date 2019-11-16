@@ -11,17 +11,15 @@ Result - The outcome converted to build and interpreate the gain chart.
 
 #### Column Drop 
 Below columns dropped due to insignificance or redundancy of the information.
-- TEST.ID - unique each row
-- BLOCK - specific address
-- Test.Date - test once a week
-- TRAP - trap ID
-- Location - combined Longitude and Latitude
+- Test Id - Primary key to the table
+- Block - Specific address
+- Test Date - Test once a week, redundant to week column
+- Trap - Trap Id
+- Location - Combination of Longitude and Latitude
 
 
 ## Models
 The exploration and prediction models are explained under the model section includes Oversampling, GLM, Decision tree, Lift chart and Confusion matrix.
-
-
 
 ## Reports
 #### Mid-Term Reports
